@@ -1,0 +1,179 @@
+\hypertarget{classRecept}{}\section{Recept osztályreferencia}
+\label{classRecept}\index{Recept@{Recept}}
+
+
+{\ttfamily \#include $<$osztalyok.\+hpp$>$}
+
+
+
+A Recept osztály együttműködési diagramja\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classRecept__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Publikus tagfüggvények}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRecept_a9cdc66661e60cfe82d1c85e3640b505f}{Recept} (std\+::string \hyperlink{classRecept_afdc9105fc79f5027da1aebb6fd908b78}{nev}, std\+::string \hyperlink{classRecept_ab45575aab9abd31171cd35eb74665389}{leiras})
+\item 
+void \hyperlink{classRecept_a24ab7eb66a011f79e99bb2325148382e}{hozzaad} (\hyperlink{classHozzavalo}{Hozzavalo} const \&uj)
+\item 
+std\+::string \hyperlink{classRecept_a9936225342590bd721f477432fb162f4}{get\+\_\+nev} () const 
+\item 
+std\+::string \hyperlink{classRecept_a22e27d4afe257de56df8a84a5377f2af}{get\+\_\+leiras} () const 
+\item 
+void \hyperlink{classRecept_a2eccb11470a34650f8faad733960f66e}{info} (std\+::ostream os)
+\item 
+\hyperlink{classRecept_a53d1a6a6ae6983cd6e409051156535a4}{$\sim$\+Recept} ()
+\item 
+\hyperlink{classRecept_af73dd83922a0f5d9016d450bf1bd5d2c}{Recept} (\hyperlink{classRecept}{Recept} const \&r)
+\item 
+\hyperlink{classRecept}{Recept} \& \hyperlink{classRecept_adb6db4fde2bc6700b63a8750012be6b8}{operator=} (\hyperlink{classRecept}{Recept} const \&rhs)
+\end{DoxyCompactItemize}
+\subsection*{Privát attribútumok}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{classRecept_afdc9105fc79f5027da1aebb6fd908b78}{nev}
+\item 
+std\+::string \hyperlink{classRecept_ab45575aab9abd31171cd35eb74665389}{leiras}
+\item 
+\hyperlink{classHozzavalo}{Hozzavalo} $\ast$ \hyperlink{classRecept_afb5204c5461622e25fd7c89da9874c01}{hozzavalok}
+\item 
+int \hyperlink{classRecept_a23e1d3a87bfdbd571a7641bd0b933eb8}{db}
+\end{DoxyCompactItemize}
+
+
+\subsection{Részletes leírás}
+A név és leíráson kívül egy dinamikus tömbben tárolja a recept összetevőit 
+
+Definíció a(z) osztalyok.\+hpp fájl 35. sorában.
+
+
+
+\subsection{Konstruktorok és destruktorok dokumentációja}
+\index{Recept@{Recept}!Recept@{Recept}}
+\index{Recept@{Recept}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{Recept(std\+::string nev, std\+::string leiras)}{Recept(std::string nev, std::string leiras)}}]{\setlength{\rightskip}{0pt plus 5cm}Recept\+::\+Recept (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{nev, }
+\item[{std\+::string}]{leiras}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRecept_a9cdc66661e60cfe82d1c85e3640b505f}{}\label{classRecept_a9cdc66661e60cfe82d1c85e3640b505f}
+Mekkora a tömbök mérete 
+
+Definíció a(z) osztalyok.\+hpp fájl 42. sorában.
+
+\index{Recept@{Recept}!````~Recept@{$\sim$\+Recept}}
+\index{````~Recept@{$\sim$\+Recept}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{$\sim$\+Recept()}{~Recept()}}]{\setlength{\rightskip}{0pt plus 5cm}Recept\+::$\sim$\+Recept (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRecept_a53d1a6a6ae6983cd6e409051156535a4}{}\label{classRecept_a53d1a6a6ae6983cd6e409051156535a4}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 47. sorában.
+
+\index{Recept@{Recept}!Recept@{Recept}}
+\index{Recept@{Recept}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{Recept(\+Recept const \&r)}{Recept(Recept const &r)}}]{\setlength{\rightskip}{0pt plus 5cm}Recept\+::\+Recept (
+\begin{DoxyParamCaption}
+\item[{{\bf Recept} const \&}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{classRecept_af73dd83922a0f5d9016d450bf1bd5d2c}{}\label{classRecept_af73dd83922a0f5d9016d450bf1bd5d2c}
+
+
+\subsection{Tagfüggvények dokumentációja}
+\index{Recept@{Recept}!get\+\_\+leiras@{get\+\_\+leiras}}
+\index{get\+\_\+leiras@{get\+\_\+leiras}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{get\+\_\+leiras() const }{get_leiras() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Recept\+::get\+\_\+leiras (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRecept_a22e27d4afe257de56df8a84a5377f2af}{}\label{classRecept_a22e27d4afe257de56df8a84a5377f2af}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 45. sorában.
+
+
+
+A függvény hívási gráfja\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{classRecept_a22e27d4afe257de56df8a84a5377f2af_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Recept@{Recept}!get\+\_\+nev@{get\+\_\+nev}}
+\index{get\+\_\+nev@{get\+\_\+nev}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{get\+\_\+nev() const }{get_nev() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Recept\+::get\+\_\+nev (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{classRecept_a9936225342590bd721f477432fb162f4}{}\label{classRecept_a9936225342590bd721f477432fb162f4}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 44. sorában.
+
+\index{Recept@{Recept}!hozzaad@{hozzaad}}
+\index{hozzaad@{hozzaad}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{hozzaad(\+Hozzavalo const \&uj)}{hozzaad(Hozzavalo const &uj)}}]{\setlength{\rightskip}{0pt plus 5cm}void Recept\+::hozzaad (
+\begin{DoxyParamCaption}
+\item[{{\bf Hozzavalo} const \&}]{uj}
+\end{DoxyParamCaption}
+)}\hypertarget{classRecept_a24ab7eb66a011f79e99bb2325148382e}{}\label{classRecept_a24ab7eb66a011f79e99bb2325148382e}
+\index{Recept@{Recept}!info@{info}}
+\index{info@{info}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{info(std\+::ostream os)}{info(std::ostream os)}}]{\setlength{\rightskip}{0pt plus 5cm}void Recept\+::info (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream}]{os}
+\end{DoxyParamCaption}
+)}\hypertarget{classRecept_a2eccb11470a34650f8faad733960f66e}{}\label{classRecept_a2eccb11470a34650f8faad733960f66e}
+\index{Recept@{Recept}!operator=@{operator=}}
+\index{operator=@{operator=}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{operator=(\+Recept const \&rhs)}{operator=(Recept const &rhs)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Recept}\& Recept\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Recept} const \&}]{rhs}
+\end{DoxyParamCaption}
+)}\hypertarget{classRecept_adb6db4fde2bc6700b63a8750012be6b8}{}\label{classRecept_adb6db4fde2bc6700b63a8750012be6b8}
+
+
+\subsection{Adatmezők dokumentációja}
+\index{Recept@{Recept}!db@{db}}
+\index{db@{db}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{db}{db}}]{\setlength{\rightskip}{0pt plus 5cm}int Recept\+::db\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRecept_a23e1d3a87bfdbd571a7641bd0b933eb8}{}\label{classRecept_a23e1d3a87bfdbd571a7641bd0b933eb8}
+Hozzavalok tömbje 
+
+Definíció a(z) osztalyok.\+hpp fájl 40. sorában.
+
+\index{Recept@{Recept}!hozzavalok@{hozzavalok}}
+\index{hozzavalok@{hozzavalok}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{hozzavalok}{hozzavalok}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Hozzavalo}$\ast$ Recept\+::hozzavalok\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRecept_afb5204c5461622e25fd7c89da9874c01}{}\label{classRecept_afb5204c5461622e25fd7c89da9874c01}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 39. sorában.
+
+\index{Recept@{Recept}!leiras@{leiras}}
+\index{leiras@{leiras}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{leiras}{leiras}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Recept\+::leiras\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRecept_ab45575aab9abd31171cd35eb74665389}{}\label{classRecept_ab45575aab9abd31171cd35eb74665389}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 38. sorában.
+
+\index{Recept@{Recept}!nev@{nev}}
+\index{nev@{nev}!Recept@{Recept}}
+\subsubsection[{\texorpdfstring{nev}{nev}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Recept\+::nev\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{classRecept_afdc9105fc79f5027da1aebb6fd908b78}{}\label{classRecept_afdc9105fc79f5027da1aebb6fd908b78}
+
+
+Definíció a(z) osztalyok.\+hpp fájl 37. sorában.
+
+
+
+Ez a dokumentáció az osztályról a következő fájl alapján készült\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{osztalyok_8hpp}{osztalyok.\+hpp}\end{DoxyCompactItemize}

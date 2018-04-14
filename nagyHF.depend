@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1492941622 source:/home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/main.cpp
+	<iostream>
+	"osztalyok.hpp"
+	"Alapanyag.hpp"
+
+1492942079 /home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/osztalyok.hpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Alapanyag.hpp"
+	"Hozzavalo.hpp"
+
+1492940982 source:/home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/osztalyok.cpp
+	<iostream>
+	"osztalyok.hpp"
+
+1492941622 source:/home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Alapanyag.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Alapanyag.hpp"
+
+1492941622 /home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Alapanyag.hpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
+1492941786 source:/home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Hozzavalo.cpp
+	"Hozzavalo.hpp"
+
+1492941732 /home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Hozzavalo.hpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Alapanyag.hpp"
+
+1492941999 source:/home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Recept.cpp
+	"Recept.hpp"
+
+1492941915 /home/m/Asztal/Prog2/NagyHF/ujnagyHF/nagyHF/Recept.hpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	"Alapanyag.hpp"
+	"Hozzavalo.hpp"
+

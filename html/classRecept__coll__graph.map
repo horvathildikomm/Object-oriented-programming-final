@@ -1,0 +1,4 @@
+<map id="Recept" name="Recept">
+<area shape="rect" id="node2" href="$classHozzavalo.html" title="{Hozzavalo\n||+ Hozzavalo()\l+ get_hozzavalo()\l+ get_mennyiseg()\l+ info()\l}" alt="" coords="41,359,171,480"/>
+<area shape="rect" id="node3" href="$classAlapanyag.html" title="{Alapanyag\n||+ Alapanyag()\l+ get_nev()\l+ get_mertekegyseg()\l+ info()\l}" alt="" coords="31,160,181,281"/>
+</map>
